@@ -7,7 +7,7 @@ indent() {
 echo "-----> Install ffmpegthumbnailer"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="https://github.com/dirkvdb/ffmpegthumbnailer/releases/download/2.2.0/ffmpegthumbnailer-2.2.0.tar.bz2"
+DOWNLOAD_URL="https://s3-ap-southeast-1.amazonaws.com/strengthandwill/ffmpegthumbnailer-2.2.0.gz"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
